@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 240px;
+  margin: 0 70px;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.header-all {
+  display: flex;
+  align-items: center;
+}
+.header-dsi {
+  display: flex;
+}
+.header-dsi h1 {
+  color: #85171a;
+  font-family: Roboto, sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 980;
+  line-height: normal;
+  letter-spacing: -2.4px;
+}
+.header-dsi h2 {
+  color: #dc2025;
+  font-family: Roboto, sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 980;
+  line-height: normal;
+  letter-spacing: -2.4px;
+}
+.header-dsi h3 {
+  color: #feba08;
+  font-family: Roboto, sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 980;
+  line-height: normal;
+  letter-spacing: -2.4px;
+}
+
+.header-des h4 {
+  color: rgba(31, 46, 53, 0.8);
+  font-family: Roboto, sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 143.187%; /* 14.319px */
+  letter-spacing: 0.65px;
+  margin-left: 5px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav a {
+  color: rgba(31, 46, 53, 0.8);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header-nav select {
+  color: rgba(31, 46, 53, 0.8);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  background: none;
+}
+#header {
+  margin: 40px 0;
+}
+.header-icons ion-icon {
+  font-size: 25px;
+  margin-left: 10px;
+}
+#hero {
+  margin: 100px 0;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text h1 {
+  color: #1f2e35;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 133.687%; /* 64.17px */
+}
+.hero-text h1 span {
+  color: #ee4248;
+}
+.hero-text p {
+  color: #30444e;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 144.687%; /* 28.937px */
+}
+.hero-text button {
+  padding: 12px 32px;
+  border-radius: 4px;
+  background: #ee4248;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.SAMSARA {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SAMSARA h1 {
+  width: 454px;
+  color: #1f2e35;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 133.687%; /* 42.78px */
+}
+.SAMSARA span {
+  color: #ee4248;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 133.687%;
+}
+.SAMSARA p {
+  color: #30444e;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+.one {
+  margin: 200px 0;
+}
+.one-text h1 {
+  color: #1f2e35;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  padding: 100px 0 100px 0;
+}
+.one-text h3 {
+  padding: 15px 0;
+  color: #ee4248;
+  font-size: 28px;
+  font-weight: 500;
+}
+.one-text p {
+  padding: 15px 0;
+  color: #30444e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.one-df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.one-bl button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #ee4248;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.footer {
+  display: flex;
+  align-items: end;
+  gap: 100px;
+}
+.footer-1 h4 {
+  color: #263238;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer-1 a {
+  color: #263238;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 149.187%; /* 26.854px */
+}
+.footer-2 h3 {
+  color: #263238;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer-2 a {
+  color: #263238;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 149.187%; /* 26.854px */
+}
+
+.kola {
+  display: flex;
+  height: 14px;
+  padding: 22px 0px 21px 0px;
+  justify-content: center;
+  margin-top: 24px;
+  align-items: center;
+  background: #ee4248;
+}
+
+.kola h3 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

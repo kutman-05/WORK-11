@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../work2"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "ВСЕ УРОКИ"
+  }
+}
